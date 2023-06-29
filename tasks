@@ -1,0 +1,17 @@
+Tasks to be completed
+
+1. set up the StrainMeasures_PR.hpp and .cpp files.							Assigned ON: 23/04
+2. set up an InputsParser_PR.hpp and .cpp files. Parameters for the paramFile.txt are:		Assigned ON: 23/04
+
+	a. Output File Base Name (string)
+	b. Write Output Tensor Files (bool)
+	c. Write the Displacement Files (bool)
+ 	d. Order of the Langrange Polynomial (int)
+	e. Mesh File Provided (bool)
+	f. Hypercube parameters (int)
+	g. Time Step Start (float)
+	h. Time Step End (float)
+	i. Number of Time Steps (unsigned int)
+	j. Type of Solver to be used (string -  direct/iterative)
+	k. Name of the Solver to be used (string - UMFPACK/..)
+	l. Precondition Type (string)

@@ -1,0 +1,23 @@
+* create struct for the material parameters
+* update declare functions in input_reader_tools.*pp
+* update the parse functions in input_reader.*pp
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************************************************************************************************************
+Learnings
+
+1. Const objects are local to a file, to share a const among various files, define it as an extern
+2. The reference to a const must also be a const,
+3. const before a fucntion -> you cannot change the returned object
+4. const after a function -> function cannot change any of the object data member
